@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/angka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Angka"
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/sin"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:text="SIN" />
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:text="COS"/>
+        <Button
+            android:id="@+id/tan"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:text="TAN"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/csc"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:text="CSC"/>
+
+        <Button
+            android:id="@+id/sec"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:text="SEC"/>
+        <Button
+            android:id="@+id/cot"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:text="COT"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/log"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:text="LOGARITMA"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="0.0"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
+
+
